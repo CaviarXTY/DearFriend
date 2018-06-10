@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioControlScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CGScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DBUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JinJuScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SuSeScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp" />
+    <ClCompile Include="BagScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioControlScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CGScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="DBUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="JinJuScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SuSeScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ESCScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h" />
+    <ClInclude Include="BagScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
